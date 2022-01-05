@@ -1,0 +1,225 @@
+﻿<Window x:Class="Lab_2._15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_2._15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="Song">
+            <FlowDocument>
+                <Paragraph FontSize="25" FontWeight="Bold">
+                    <Figure WrapDirection="Left" Width="300" HorizontalAnchor="PageRight" VerticalAnchor="PageTop">
+                        <BlockUIContainer>
+                            <Image Source="Image\1.jpg"/>
+                        </BlockUIContainer>
+                    </Figure>                    
+                        <Bold>Гимн Ассенизаторов</Bold>
+                </Paragraph>
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Куплет
+                </Paragraph>
+                <Paragraph>Сорок лет как под наркозом я работал говновозом.</Paragraph>              
+                <Paragraph>Не шофером, не таксистом, а вонючим говночистом.</Paragraph>         
+                <Paragraph>За три сотенных бумажки на ЗИЛе возил какашки.</Paragraph>              
+                <Paragraph>И скажу вам, чтоб вы знали: «Ох, и много ж вы насрали!».</Paragraph>               
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Припев
+                </Paragraph>
+                <Paragraph>Говновоз, говновоз, говновоз.</Paragraph>
+                <Paragraph>Не отчистить говна от колес.</Paragraph>    
+                <Paragraph>Если даже духами обдать,</Paragraph>
+                <Paragraph>Все равно продолжает вонять.</Paragraph>
+                <Paragraph>Говночист, говночист, говночист</Paragraph>        
+                <Paragraph>Должен быть закален и плечист</Paragraph>
+                <Paragraph>Говночист, заклинатель говна,</Paragraph>
+                <Paragraph>Нужен людям во все времена!</Paragraph>      
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Куплет
+                </Paragraph>
+                <Paragraph>Я не знаю, как там Запад. Мож, у них поменьше запах.</Paragraph>
+                <Paragraph>Наш насерет в таксофоне и напустит столько вони!</Paragraph>
+                <Paragraph>Вроде, стали жрать поменьше, значит надо срать полегче.</Paragraph>
+                <Paragraph>Но откуда что берется? Вдвое больше людям срется.</Paragraph>     
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Припев
+                </Paragraph>
+                <Paragraph>Говновоз, говновоз, говновоз.</Paragraph>
+                <Paragraph>Не отчистить говна от колес.</Paragraph>
+                <Paragraph>Если даже духами обдать,</Paragraph>
+                <Paragraph>Все равно продолжает вонять.</Paragraph>
+                <Paragraph>Говночист, говночист, говночист</Paragraph>
+                <Paragraph>Должен быть закален и плечист</Paragraph>
+                <Paragraph>Говночист, заклинатель говна,</Paragraph>
+                <Paragraph>Нужен людям во все времена!</Paragraph>
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Куплет
+                </Paragraph>
+                <Paragraph>Приезжают к нам туристы. Я б сказал народ говнистый</Paragraph>
+                <Paragraph>Вдоль по улице пройдется и бананов обожрется.</Paragraph>
+                <Paragraph>И такая вот зараза серет мимо унитаза.</Paragraph>
+                <Paragraph>Жопу пальцем вытирает, за собою не смывает.</Paragraph>       
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Припев
+                </Paragraph>
+                <Paragraph>Говновоз, говновоз, говновоз.</Paragraph>
+                <Paragraph>Не отчистить говна от колес.</Paragraph>
+                <Paragraph>Если даже духами обдать,</Paragraph>
+                <Paragraph>Все равно продолжает вонять.</Paragraph>
+                <Paragraph>Говночист, говночист, говночист</Paragraph>
+                <Paragraph>Должен быть закален и плечист</Paragraph>
+                <Paragraph>Говночист, заклинатель говна,</Paragraph>
+                <Paragraph>Нужен людям во все времена!</Paragraph>
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Куплет
+                </Paragraph>
+                <Paragraph>Жили мы, не унывали, все страну свою засрали.</Paragraph>
+                <Paragraph>Всяк в начальство себя прочит, а говно возить не хочет.</Paragraph>
+                <Paragraph>Но таков закон природы: идеальной нет погоды</Paragraph>
+                <Paragraph>Если кто-то всюду гадит, значит сам туда же сядет.</Paragraph>           
+                <Paragraph FontSize="20" FontWeight="Bold">
+                    Припев
+                </Paragraph>
+                <Paragraph>Говновоз, говновоз, говновоз.</Paragraph>
+                <Paragraph>Не отчистить говна от колес.</Paragraph>
+                <Paragraph>Если даже духами обдать,</Paragraph>
+                <Paragraph>Все равно продолжает вонять.</Paragraph>
+                <Paragraph>Говночист, говночист, говночист</Paragraph>
+                <Paragraph>Должен быть закален и плечист</Paragraph>
+                <Paragraph>Говночист, заклинатель говна,</Paragraph>
+                <Paragraph>Нужен людям во все времена!</Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.4*"/>
+                        <TableColumn Width="1.5*"/>
+                        <TableColumn Width="5*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow Background="#FF8DFF8D">
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    №
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    Инструмент
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Ассенизаторская машина
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Служит как для откачки каках и для перевоза как в места слива :)))
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Шланги 
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Основной интрумент откачки!)) Желательно иметь несколько шлангов, которые можно присоединить друг к другу для глубоких колодцев, а иначе придется черпать ведром!)))
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Одежда
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                   Играет очень важную роль. Если не будет сменной одежды, жена вас может выгнать из дома! Ваше амбрэ распугает всех в ваашем доме!)))                                    
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    4
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Перчатки
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Желательно из плотной резины. Дабы не получилось так что от ваших рук будет попахивать противной субстанцией)))
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    5
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Понимающая жена
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Вопрос быть или не быть ассенизатором, это серьёзный вопрос. Если жена не поймёт, будет печально. 
+                                    Вы и ваша жена должны следовать догма "Ты в говне и я в говне, нам приятней жить вдвойне".
+                                    Из этого следует, что жена к примеру должна работать в коровнике - дояркой, так вы не будете выделяться)))
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>               
+                    </TableRowGroup>
+                </Table>
+                <Paragraph FontSize="30">
+                    <Hyperlink NavigateUri="https://www.youtube.com/watch?v=PRMG99bcuWE">
+                        <Bold>А вот и сам ГИМН</Bold>
+                    </Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    Ессли ссылка не открывается скопируйте в адрес своего браузера: https://www.youtube.com/watch?v=PRMG99bcuWE
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>        
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_2"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
